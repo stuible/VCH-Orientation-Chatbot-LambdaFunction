@@ -1,11 +1,7 @@
 """
-This sample demonstrates an implementation of the Lex Code Hook Interface
-in order to serve a sample bot which manages reservations for hotel rooms and car rentals.
-Bot, Intent, and Slot models which are compatible with this sample can be found in the Lex Console
-as part of the 'BookTrip' template.
+Lambda function that interfaces between Lex and the VCH Orientation API
 
-For instructions on how to set up and test this bot, as well as additional samples,
-visit the Lex Getting Started documentation http://docs.aws.amazon.com/lex/latest/dg/getting-started.html.
+Written by Josh Stuible
 """
 
 import json

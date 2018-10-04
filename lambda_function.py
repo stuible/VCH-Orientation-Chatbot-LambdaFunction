@@ -487,7 +487,7 @@ def book_car(intent_request):
 
 def respond(intent_request, intent_name):
 
-    policyName = intent_request['currentIntent']['name']
+    # policyName = intent_request['currentIntent']['/name']
     slotName = intent_request['currentIntent']['slots']['Policy']
 
     api_response = requests.get("http://api.vchorientation.ca/api/" + intent_name + "/" + slotName)
